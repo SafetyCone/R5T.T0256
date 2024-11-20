@@ -1,21 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
+  <PropertyGroup Label="Main">
     <TargetFramework>net8.0</TargetFramework>
-    <OutputType>Exe</OutputType>
-    <NoWarn>1591</NoWarn>
+    <OutputType>Library</OutputType>
+    <NoWarn>1573;1587;1591</NoWarn>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
-  <PropertyGroup>
+  <PropertyGroup Label="Package">
     <Version>1.0.0</Version>
     <Authors>DCoats</Authors>
     <Company>Rivet</Company>
-    <Copyright>Copyright (c) Rivet 2024</Copyright>
-    <Description>Construction console project for the R5T.T0256 library.</Description>
+    <Copyright>Copyright © Rivet 2024</Copyright>
+    <Description>Types library: NET-latest, unlimited dependencies, catch-all.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <RepositoryUrl>https://github.com/SafetyCone/R5T.T0256.git</RepositoryUrl>
   </PropertyGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\R5T.T0256\R5T.T0256.csproj" />
-  </ItemGroup>
 </Project>
